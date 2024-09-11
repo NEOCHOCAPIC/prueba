@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Estilo global de fondo y texto */
+body {
+    background-color: #f2f2f2; /* Gris claro */
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Links en el navbar */
+  .navbar-dark .navbar-nav .nav-link {
+    color: #f2f2f2; /* Blanco sobre negro */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #bbb; /* Gris claro en hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222; /* Negro */
+    color: #f2f2f2; /* Gris claro */
+  }
+  
+  footer a {
+    color: #bbb; /* Gris claro */
+  }
+  
+  footer a:hover {
+    color: #fff; /* Blanco en hover */
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #333; /* Gris oscuro */
+    border-color: #333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #555; /* Gris intermedio */
+    border-color: #555;
+  }
+  
+  /* Formularios */
+  form label {
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Bordes de los inputs */
+  form input.form-control {
+    border-color: #ddd; /* Gris claro */
+  }
+  
+  form input.form-control:focus {
+    border-color: #aaa; /* Gris intermedio */
+    box-shadow: none;
+  }
+  
+  .masthead {
+    color: black;
+    min-height: 50rem; /* Asegúrate de que cubra toda la pantalla */
+    width: 100%;
+    padding-top: 5rem;
+    background: url('../img/Biblioteca_3.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+  background: #f5f6f5;
+  font-family: sans-serif;
+  overflow: hidden;
+}
